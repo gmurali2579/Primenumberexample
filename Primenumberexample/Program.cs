@@ -11,12 +11,11 @@ namespace Primenumberexample
         static void Main(string[] args)
         {
             int num1;
-
             Console.WriteLine("Accept number:");
             num1 = Convert.ToInt32(Console.ReadLine());
             if (num1 == 0 || num1 == 1)
             {
-                Console.WriteLine(num1 + " is not prime number");
+                Console.WriteLine(num1 + " is not Prime Number");
                 Console.ReadLine();
             }
             else
@@ -25,12 +24,12 @@ namespace Primenumberexample
                 {
                     if (num1 % a == 0)
                     {
-                        Console.WriteLine(num1 + " is not prime number");
+                        Console.WriteLine(num1 + " is not Prime Number");
                         return;
                     }
 
                 }
-                Console.WriteLine(num1 + " is a prime number");
+                Console.WriteLine(num1 + " is a Prime Number");
                 Console.ReadLine();
             }
         }
